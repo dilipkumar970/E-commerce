@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+
+}
+
+:root{
+    --green:#27ae60;
+--dark-color: #219150;
+--black: #444;
+--light-color: #666;
+--border:.1rem solid rgba(0,0,0,.1);
+--border-hover:.1rem solid #444;
+--box-shadow:-1rem 1rem rgba(0,0,0, -1)
+}
+
+
+.footer {
+    margin: auto;
+    height: auto;
+    padding: auto;
+    height: 25rem;
+    background-color: azure;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.footer .footer-container {
+
+    justify-content: center;
+    display:flex;
+    padding-top:2rem;
+    gap: 8rem;
+}
+
+.footer .footer-container .menu {
+
+    line-height: 1.5rem;
+    font-weight: bolder;
+    font-weight: bolder;
+}
+
+.footer .footer-container .menu h2{
+
+    font-size: 1.4rem;
+    height:3rem;
+    margin-top: 3rem;
+    
+}
+
+.footer .footer-container .menu .content a {
+
+  color:var(--black);
+  padding-top: 10px;
+  line-height:0rem;
+  display: flex;
+  height: 2.5rem;
+}
+
+.footer .footer-container .menu .content a:hover {
+
+    color: black;
+    font-size: 1.1rem;
+}
+
+.footer .footer-container .menu .content form h4 {
+
+    color: var(--black);
+}
+
+.footer .footer-container .menu .content form .btn {
+
+    background-color: #f7444e;
+    border: #f7444e;
+    color: aliceblue;
+    padding-top: 5px;
+}
+
+.footer .footer-container .menu .content form .btn {
+
+        cursor: pointer;
+}
+
+.footer .footer-container .menu .content form .box {
+
+    color: #666;
+
+}
