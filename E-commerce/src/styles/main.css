@@ -77,51 +77,75 @@ padding-left: 25px;
  height: 100px;
 }
 
-/* after landing page starting explore content*/ 
+/*  offer content below the navbar*/ 
 
-.explore {
-    margin-top: -3%;
-    flex: 1;
-  display: flex;
-  position: relative;
-  padding: 90px 0 75px 0;
-  font-family: 'Playfair Display', serif;
+.offer {
+
+    height: 60rem;
+    margin-top: -50px;
 }
 
-.bg-image{
-position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+.offer .offer-container .image {
+
+    height: 7rem;
+
 }
 
-.bg-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.offer .offer-container .content h1{
+
+    font-size: 4.5rem;
+    padding-top: 40px;
+    padding-left: 20rem;
+    color: #f7444e;
 }
 
+.offer .offer-container  .para p {
 
-.exploremore{
-    margin-left:35%;
-    margin-top: -45%;
-    text-align: center;
-    border-radius: 10px;
-    color:white;
+    font-size: 4.5rem;
+    margin-top: -5rem;
+    padding-left: 20rem;
+    color: #002c3e;
+    line-height: -10px;
+}
+
+.offer .offer-container .button {
+
+    margin-left: 20rem;
+}
+
+.offer .offer-container .button button{
+
     background-color:#f7444e;
-    font-weight: bolder;
-    font-size: 20px;
-    cursor: pointer;
-    margin-bottom: 13%;
+    border:1px solid #f7444e;
+    border-radius: 5px;
+    
 }
 
+.offer .offer-container .button a {
+
+    font-size: 1.5rem;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+.offer .offer-container .button button:hover{
+
+    background-color:white;
+    border-radius: 5px;
+    
+}
+
+.offer .offer-container .button a:hover {
+
+    font-size: 1.7rem;
+    color: #f7444e;
+    background-color: #fafafa;
+}
 
 /* New arrival section    */
 
 .arrivals {
-    margin: 10rem;
+    margin: 20rem;
 } 
 
 .arrivals h1{
