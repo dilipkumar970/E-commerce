@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --green:#27ae60;
+--dark-color: #219150;
+--black: #444;
+--light-color: #666;
+--border:.1rem solid rgba(0,0,0,.1);
+--border-hover:.1rem solid #444;
+--box-shadow:-1rem 1rem rgba(0,0,0, -1)
+}
+
+/* Navigation bar */
+
+.topbar {
+    display: flex;
+    background:#f2f2f2;
+    width: 100%;
+    position: fixed;
+    font-family: lora;
+    margin-top: -20px;
+    padding: 0%;
+    height: 100px;
+    margin-left: -10px;
+    margin-right: -15px;
+    z-index: 2;
+}
+.logo {
+margin: auto;
+padding-left: 25px;
+}
+
+.navbar {
+    font-size: large;
+    font-family: 'Lora', serif;
+    width: 100%;
+    margin: auto;
+    padding-left: 250px;
+   
+}
+
+.navbar a {
+    margin:auto;
+    color: black;
+    font-size: large;
+    display: inline-block;
+    margin-left: 25px;
+
+}
+.dp-content a:hover {
+    box-shadow: 10px 5px 5px black;
+    width: auto;
+} 
+
+
+/*----------------------------------------------------- CSS for login Icons --------------------------------------------------*/
+
+.topbar .icons {
+     display: flex;
+     font-size: 1.8rem;
+     margin-top: 2.5rem;
+     margin-right: 2.5rem;
+     gap: 1.5rem;
+}
+
+.topbar .icons #login-btn {
+
+    cursor: pointer;
+}
+
+#mynavbar {
+    color: black;
+    font-weight: 600;
+}
+
+.welcome {
+ height: 100px;
+}
+
+/* ------------------------------------------------------ offer content below the navbar ----------------------------------------------*/ 
+
+.offer {
+
+    height: 60rem;
+    margin-top: -50px;
+}
+
+.offer .offer-container .image {
+
+    height: 7rem;
+
+}
+
+.offer .offer-container .content h1{
+
+    font-size: 4.5rem;
+    padding-top: 40px;
+    padding-left: 20rem;
+    color: #f7444e;
+}
+
+.offer .offer-container  .para p {
+
+    font-size: 4.5rem;
+    margin-top: -5rem;
+    padding-left: 20rem;
+    color: #002c3e;
+    line-height: -10px;
+}
+
+.offer .offer-container .button {
+
+    margin-left: 20rem;
+}
+
+.offer .offer-container .button button{
+
+    background-color:#f7444e;
+    border:1px solid #f7444e;
+    border-radius: 5px;
+    width: 150px;
+    height: 2rem;
+    
+}
+
+.offer .offer-container .button a {
+
+    font-size: 1.2rem;
+    color: #f2f2f2;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.offer .offer-container .button button:hover{
+
+    background-color:white;
+    border-radius: 5px;
+    
+}
+
+.offer .offer-container .button a:hover {
+
+    font-size: 1.3rem;
+    color: #f7444e;
+    background-color: #fafafa;
+}
+
+/*---------------------------------------- New arrival section   ---------------------------------------------------- */
+
+.arrivals {
+    margin: 20rem;
+} 
+
+.arrivals h1{
+    align-items: center;
+    font-size: 4.5rem;
+    color:  #002c3e;;
+}
+
+
+.arrivals .arrivals-slider .box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    border: bisque;
+    margin: 1rem 0;
+
+}
+
+.arrivals .arrivals-slider .box:hover {
+    border:var(--border-hover);
+}
+
+.arrivals .arrivals-slider .box .image img {
+    height: 15rem;
+}
+
+.arrivals .arrivals-slider .box .content h3{
+    font-size: 2rem;
+    color: var(--black);
+} 
+
+.arrivals .arrivals-slider .box .content .price {
+    font-size: 2.2rem;
+    color:var(--black);
+    padding-bottom: 0.5rem;
+}
+
+.arrivals .arrivals-slider .box .content .price span {
+    font-size: 2.2rem;
+    color:var(--light-color);
+    text-decoration:line-through;
+}
+
+.arrivals .arrivals-slider .box .content .stars i {
+    font-size: 1.5rem;
+    color: var(--green);
+}
+
+
+/* -----------------------------------------------------Our products section-------------------------------------------------*/
+
+.our-products h1{
+    
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.our-products .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+.our-products .card-title {
+
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0xp 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+    line-height: 2rem;
+}
+
+.our-products .card-title h2{
+
+    text-align: center;
+    color:#f7444e;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+}
+
+.our-products .card-title .image img {
+    height: 15rem;
+}
+
+.image img {
+
+    width: 100%;
+    object-fit: contain;
+}
+
+.our-products .card-title .content .price{
+
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+
+}
+
+.our-products .card-title .content a {
+    font-size: 1rem;
+    background-color: red;
+
+}
+
+.our-products .card-title .content a:hover {
+ color: #f7444e;
+ background-color: #fafafa;
+ box-shadow: 10px 5px 5px black;
+ transform: scaleY(1.2);
+}
+
+.our-products .card-title .image:hover {
+    
+ filter:drop-shadow( 5px 3px 1px black);
+}
+
+.our-products .card-title .content span {
+
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+
+
+/* ------------------------------------------------------- CSS for Our-Pratners is same CSS of Our-Products ---------------------------*/
+
+
+/* ----------------------------------------------------------CSS for Newsletter Subscribe -------------------------------------------- */
+
+
+.Newsletter {
+    height: 35rem;
+    background-color: rgb(182, 178, 173);
+    margin-bottom: 5rem;
+
+}
+
+.Newsletter .newsleteer-container {
+
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.Newsletter .newsleteer-container form h1{
+
+    color: #002c3e;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding-top: 4rem;
+
+}
+
+.Newsletter .newsleteer-container form .box {
+
+    width: 50rem;
+    height: 4rem;
+    border-radius: 30px;
+    text-align: center;
+    margin-left:35rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 4px;
+
+}
+
+
+.Newsletter .newsleteer-container form p{
+
+    font-size: 20px;
+    width: 50rem;
+    margin:auto;
+    padding-bottom: 2rem;
+}
+
+.Newsletter .newsleteer-container form .btn {
+
+    width: 15rem;
+    height: 3rem;
+    border-radius: 30px;
+    text-align: center;
+    margin-left:51rem;
+    font-size: 1.5rem;
+    margin-top: 6rem;
+    margin-bottom: 10px;
+    background-color: #f7444e;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    color: #fafafa;
+    border: #f7444e;
+}
+
+.Newsletter .newsleteer-container form .btn:hover{
+
+        cursor: pointer;
+        border-color: #f7444e;
+        background-color: #fafafa;
+        color: #f7444e;
+    
+}
+
+
+/* ------------------------------------------------------- CSS for footer is in separate page --------------------------------*/

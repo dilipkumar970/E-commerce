@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.men {
+    position: relative;
+    display: inline-block;
+}
+
+.dp-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width:500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 500px;
+    overflow: scroll;
+
+}
+.dp-content a {
+    position: relative;
+    padding: 12px 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    padding-left: 25px;
+}
+
+#dropdown {
+    font-size: 20px;
+    color: rgba(255, 17, 0, 0.926);
+
+}
+
+.men:hover .dp-content {display:block;
+    padding: 10px;
+
+}
+
+.navbar .men a{
+    padding-left: 25px;
+}

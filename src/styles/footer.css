@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+
+}
+
+:root{
+    --green:#27ae60;
+--dark-color: #219150;
+--black: #444;
+--light-color: #666;
+--border:.1rem solid rgba(0,0,0,.1);
+--border-hover:.1rem solid #444;
+--box-shadow:-1rem 1rem rgba(0,0,0, -1)
+}
+
+
+.footer {
+    margin: auto;
+    height: auto;
+    padding: auto;
+    height: 25rem;
+    background-color: azure;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.footer .footer-container {
+
+    justify-content: center;
+    display:flex;
+    padding-top:2rem;
+    gap: 8rem;
+}
+
+.footer .footer-container .menu {
+
+    line-height: 1.5rem;
+    font-weight: bolder;
+    font-weight: bolder;
+}
+
+.footer .footer-container .menu h2{
+
+    font-size: 1.4rem;
+    height:3rem;
+    margin-top: 3rem;
+    
+}
+
+.footer .footer-container .menu .content a {
+
+  color:var(--black);
+  padding-top: 10px;
+  line-height:0rem;
+  display: flex;
+  height: 2.5rem;
+}
+
+.footer .footer-container .menu .content a i{
+
+    padding-right: .5rem;
+    margin-top: -6px;
+    color: #f7444e;
+}
+
+.footer .footer-container .menu .content a:hover {
+
+    color: black;
+    font-size: 1.1rem;
+}
+
+.footer .footer-container .menu .content form h4 {
+
+    color: var(--black);
+}
+
+.footer .footer-container .menu .content form .btn {
+
+    background-color: #f7444e;
+    border: #f7444e;
+    color: aliceblue;
+    padding-top: 5px;
+}
+
+.footer .footer-container .menu .content form .btn {
+
+        cursor: pointer;
+}
+
+.footer .footer-container .menu .content form .box {
+
+    color: #666;
+
+}
+
+.credit {
+
+    color: rgb(86, 85, 85) ;
+    background-color: azure;
+    text-align: center;
+    height: 3rem;
+    padding-top: 15px;
+    font-weight:lighter;
+    font-size: 1.3rem;
+
+}
+
+.credit span {
+
+    color: #f7444e;
+    font-size: 1.4rem;
+}
+
+
+.share-links {
+
+    margin-top: -29px;
+    background-color: azure;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.share-links .social-media a i {
+    line-height: 4rem;
+    width: 3rem;
+    font-size: 2rem;
+    background: #f7444e;
+    color: #fff;
+    margin: .5rem .3rem;
+    border-radius: 50%;
+
+}
+
+.social-media a:hover i {
+     background: var(--black);
+}

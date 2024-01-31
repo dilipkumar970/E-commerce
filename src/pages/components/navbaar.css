@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Navigation bar */
+
+.topbar {
+    display: flex;
+    background:#f2f2f2;
+    width: 100%;
+    position: fixed;
+    font-family: lora;
+    margin-top: 0px;
+    padding: 0%;
+    height: 100px;
+    margin-left: -10px;
+    margin-right: -15px;
+}
+.logo {
+margin: auto;
+padding-left: 25px;
+}
+
+#Home {
+    font-size: 15px;
+    
+}
+
+.navbar {
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    width: 100%;
+    margin: auto;
+    padding-left: 250px;
+}
+
+.navbar a {
+    margin:auto;
+    color: black;
+    font-size: large;
+    display: inline-block;
+    margin-left: 25px;
+
+
+}
+
+
+.dp-content a:hover {
+    box-shadow: 10px 5px 5px black;
+    width: auto;
+} 
+
+.login{
+    font-family: 'Lora', serif;
+        float: right;
+    padding-right: 25px;
+    margin: auto;
+    font-weight: 900;
+    
+}
+ .login a{
+    color:rgb(249, 190, 12);
+ }
+
+#mynavbar {
+    color: black;
+    font-weight: 600;
+}
+
+.welcome {
+ height: 100px;
+}
